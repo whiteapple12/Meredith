@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , 'sans-serif';
+}
+
+header {
+    position: static;
+    top: 0;
+    left: 0;
+    widht: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: x-large;
+    color: pink; /* Mengatur warna logo */
+}
+/* Mengatur Logo bagian span */
+.logo span {
+    color: rgb(253, 253, 168);
+}
+
+navigation {
+    margin-left: 30px;
+}
+
+.navigation a {
+    font-size: medium;
+    /* Mengatur ukuran huruf navigasi atau menu */
+    color: rgb(250, 168, 207);
+    /* Mengatur warna menu */
+    margin-right: 30px;
+    /* mengatur jarak antar menu (home, portfolio,dll */
+    text-decoration: 0;
+    /* Menghilangkan underline pada menu */
+    font-weight: 400;
+    /* mengatur ketebalan huruf */
+    transition: .0s;
+}
+
+.navigation a:hover {
+    color: rgb(254, 173, 186);
+}
+
+.home {
+    position: relative;
+    width: 100%; /* Mengatur tinggi gambar */
+    height: 115vh; /* Mengatur lebar gambar */
+    background-image: url("medibg.jpg"); /* Menambahkan gambar background */
+    background-size: cover; /* Mengatur size gambar */
+    background-position: center; /* Mengatur posisi gambar */
+    display: flex; /* Mengatur letak  */
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.content {
+    max-width: 500px;
+    color: #030303;
+}
+
+/* Mengatur ukuran heading 2 yang sudah didefiniskasn di HTML */
+.content h2 {
+    font-size: 48px;
+}
+.content h2 span{
+    color: rgba(255, 20, 145, 0.76);
+}
+
+.content h4 {
+    font-size: 34px;
+    /* Mengatur ukuran huruf h4 yang telah didefinisikan di HTML agar ukurannya lebih besar */
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+    /* Mengatur batas atas, bawah, kiri dan kanan */
+}
+
+/* Mengatur button */
+.btn-group a{
+    color: pink;
+    text-decoration: rgb(113, 163, 206);
+    background-color: transparent;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid pink;
+    
+}
+/* Mengatur hover pada button Hire Me */
+.btn-group a:hover:nth-child(1) {
+    color: pink;
+    background: transparent;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: pink;
+    background: transparent;
+    }
+
+.btn-group a:nth-child(2) {
+    color: pink;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+/* Mengatur posisi icon media sosial */
+.social-icons {
+    position: absolute;
+    bottom: 80px;
+    
+}
+.social-icons a {
+    display: inline-block;
+    background: lightpink;
+    width: 35px; /* Mengatur lebar icon */
+    height: 35px; /* Mengatur tinggi icon */
+    line-height: 35px; /* Mengatur positi icon agar berada di tengah lingkaran */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px; /* Mengatur border agar berbentuk lingkaran */
+    border: 1px solid white;
+    outline: 2px solid pink;
+    margin-right: 30px;
+}
